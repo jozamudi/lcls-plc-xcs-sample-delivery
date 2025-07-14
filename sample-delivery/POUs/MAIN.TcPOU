@@ -24,8 +24,7 @@ SolenoidPairA();
 
 (* Following execution of all the programs, set the first pass false *)
 g_xFirstPass := FALSE;
-
-PRG_RCC();]]></ST>
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
