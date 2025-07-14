@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.35" ClassName="CDevEtherCATDef" SubType="111">
+	<Device Id="1" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="172.21.38.25.2.1" RemoteName="Device 1 (EtherCAT)" InfoImageId="3">
+		<Name>__FILENAME__</Name>
+		<AddressInfo>
+			<Ccat>
+				<Address>-41943040</Address>
+				<Offset>131072</Offset>
+				<Size>8192</Size>
+				<BaseAddr>0</BaseAddr>
+				<BusNo>1</BusNo>
+				<SlotNo>0</SlotNo>
+				<VendorId>5612</VendorId>
+				<DeviceId>20480</DeviceId>
+				<Dma>
+					<Address>0</Address>
+					<Offset>4096</Offset>
+					<Size>256</Size>
+					<BaseAddr>2</BaseAddr>
+					<RxChn>0</RxChn>
+					<TxChn>1</TxChn>
+				</Dma>
+				<Identification>
+					<Value>1022134156</Value>
+					<Version>1</Version>
+					<Size>256</Size>
+				</Identification>
+			</Ccat>
+		</AddressInfo>
+		<Image Id="1" AddrType="9" ImageType="3">
+			<Name>Image</Name>
+		</Image>
+		<Image Id="2" AddrType="10" ImageType="3">
+			<Name>Image-2</Name>
+		</Image>
+		<Box File="Term 1 (EK1200).xti" Id="1">
+			<EtherCAT PortABoxInfo="#x00ffffff"/>
+		</Box>
+		<Box File="Box 17 (EP9128-0021).xti" Id="17">
+			<EtherCAT PortABoxInfo="#x01000002"/>
+		</Box>
+		<Box File="ALI (EP1111).xti" Id="10">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="ALI_X (EP7041-0002).xti" Id="12">
+			<EtherCAT PortABoxInfo="#x0100000a"/>
+		</Box>
+		<Box File="ALI_Y (EP7041-0002).xti" Id="15">
+			<EtherCAT PortABoxInfo="#x0100000c"/>
+		</Box>
+		<Box File="ALI_Z (EP7041-0002).xti" Id="11">
+			<EtherCAT PortABoxInfo="#x0100000f"/>
+		</Box>
+		<Box File="ALI_X_ENC (EP5101-0011).xti" Id="3">
+			<EtherCAT PortABoxInfo="#x0100000b"/>
+		</Box>
+		<Box File="ALI_Gauges (EP3174-0002).xti" Id="45">
+			<EtherCAT PortABoxInfo="#x01000003"/>
+		</Box>
+		<Box File="ALI_PropValve (EP7041-0002).xti" Id="46">
+			<EtherCAT PortABoxInfo="#x0100002d"/>
+		</Box>
+		<Box File="ALI_Y_ENC (EP5101-0011).xti" Id="47">
+			<EtherCAT PortABoxInfo="#x0100002e"/>
+		</Box>
+		<Box File="ALI_DIO (EP2338-0001).xti" Id="48">
+			<EtherCAT PortABoxInfo="#x0100002f"/>
+		</Box>
+		<Box File="M3 Selector A (EP1111).xti" Id="4">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="M3 Selector A Digital IO (EP2338-1001).xti" Id="34">
+			<EtherCAT PortABoxInfo="#x01000004"/>
+		</Box>
+		<Box File="M3 Selector A Serial IO (EP6002-0002).xti" Id="37">
+			<EtherCAT PortABoxInfo="#x01000022"/>
+		</Box>
+		<Box File="M3 Selector B (EP1111).xti" Id="39">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="M3 Selector B Digital IO (EP2338-1001).xti" Id="40">
+			<EtherCAT PortABoxInfo="#x01000027"/>
+		</Box>
+		<Box File="M3 Selector B Serial IO (EP6002-0002).xti" Id="41">
+			<EtherCAT PortABoxInfo="#x01000028"/>
+		</Box>
+		<Box File="PCM A (EP1111).xti" Id="13">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="PCM A (EP4374-0002).xti" Id="5">
+			<EtherCAT PortABoxInfo="#x0100000d"/>
+		</Box>
+		<Box File="PCM A (EP3174-0002).xti" Id="6">
+			<EtherCAT PortABoxInfo="#x01000005"/>
+		</Box>
+		<Box File="PCM A (EP6002-0002).xti" Id="7">
+			<EtherCAT PortABoxInfo="#x01000006"/>
+		</Box>
+		<Box File="PCM B (EP1111).xti" Id="26">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="PCM B (EP4374-0002).xti" Id="27">
+			<EtherCAT PortABoxInfo="#x0100001a"/>
+		</Box>
+		<Box File="PCM B (EP3174-0002).xti" Id="43">
+			<EtherCAT PortABoxInfo="#x0100001b"/>
+		</Box>
+		<Box File="PCM B (EP6002-0002).xti" Id="44">
+			<EtherCAT PortABoxInfo="#x0100002b"/>
+		</Box>
+		<Box File="Gas_Mani (EP1111).xti" Id="49">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="Gas_Mani_NeedleValve (EP4374-0002).xti" Id="50">
+			<EtherCAT PortABoxInfo="#x01000031"/>
+		</Box>
+		<Box File="Gas_Mani_ValveCtrl (EP2338-0001).xti" Id="51">
+			<EtherCAT PortABoxInfo="#x01000032"/>
+		</Box>
+		<Box File="Gas_Mani_ValveRbk (EP2338-0001).xti" Id="52">
+			<EtherCAT PortABoxInfo="#x01000033"/>
+		</Box>
+		<Box File="M3 Selector C (EP1111).xti" Id="19">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="M3 Selector C Digital IO (EP2338-1001).xti" Id="21">
+			<EtherCAT PortABoxInfo="#x01000013"/>
+		</Box>
+		<Box File="M3 Selector C Serial IO (EP6002-0002).xti" Id="29">
+			<EtherCAT PortABoxInfo="#x01000015"/>
+		</Box>
+		<Box File="M3 Selector D (EP1111).xti" Id="32">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="M3 Selector D Digital IO (EP2338-1001).xti" Id="33">
+			<EtherCAT PortABoxInfo="#x01000020"/>
+		</Box>
+		<Box File="M3 Selector D Serial IO (EP6002-0002).xti" Id="53">
+			<EtherCAT PortABoxInfo="#x01000021"/>
+		</Box>
+		<Box File="PCM C (EP1111).xti" Id="55">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="PCM C (EP4374-0002).xti" Id="56">
+			<EtherCAT PortABoxInfo="#x01000037"/>
+		</Box>
+		<Box File="PCM C (EP3174-0002).xti" Id="57">
+			<EtherCAT PortABoxInfo="#x01000038"/>
+		</Box>
+		<Box File="PCM C (EP6002-0002).xti" Id="58">
+			<EtherCAT PortABoxInfo="#x01000039"/>
+		</Box>
+		<Box File="PCM D (EP1111).xti" Id="59">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="PCM D (EP4374-0002).xti" Id="60">
+			<EtherCAT PortABoxInfo="#x0100003b"/>
+		</Box>
+		<Box File="PCM D (EP3174-0002).xti" Id="61">
+			<EtherCAT PortABoxInfo="#x0100003c"/>
+		</Box>
+		<Box File="PCM D (EP6002-0002).xti" Id="62">
+			<EtherCAT PortABoxInfo="#x0100003d"/>
+		</Box>
+		<Box File="Bronkhorst MFM A.xti" Id="38">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="Bronkhorst MFM B.xti" Id="42">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="Bronkhorst MFM C.xti" Id="30">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="Bronkhorst MFM D.xti" Id="54">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="Solenoid Pair A (EP1111).xti" Id="9">
+			<EtherCAT PortABoxInfo="#xffffffff"/>
+		</Box>
+		<Box File="Solenoid Pair A Digital IO (EP2338-0001).xti" Id="8">
+			<EtherCAT PortABoxInfo="#x01000009"/>
+		</Box>
+		<EtherCAT>
+			<SyncUnit Name="[ALI (EP1111)]" HcName="ALI (EP1111)"/>
+			<SyncUnit Name="[Bronkhorst MFM A]" HcName="Bronkhorst MFM A"/>
+			<SyncUnit Name="[Bronkhorst MFM B]" HcName="Bronkhorst MFM B"/>
+			<SyncUnit Name="[Bronkhorst MFM C]" HcName="Bronkhorst MFM C"/>
+			<SyncUnit Name="[Bronkhorst MFM D]" HcName="Bronkhorst MFM D"/>
+			<SyncUnit Name="[Gas_Mani (EP1111)]" HcName="Gas_Mani (EP1111)"/>
+			<SyncUnit Name="[M3 Selector A (EP1111)]" HcName="M3 Selector A (EP1111)"/>
+			<SyncUnit Name="[M3 Selector B (EP1111)]" HcName="M3 Selector B (EP1111)"/>
+			<SyncUnit Name="[M3 Selector C (EP1111)]" HcName="M3 Selector C (EP1111)"/>
+			<SyncUnit Name="[M3 Selector D (EP1111)]" HcName="M3 Selector D (EP1111)"/>
+			<SyncUnit Name="[PCM A (EP1111)]" HcName="PCM A (EP1111)"/>
+			<SyncUnit Name="[PCM B (EP1111)]" HcName="PCM B (EP1111)"/>
+			<SyncUnit Name="[PCM C (EP1111)]" HcName="PCM C (EP1111)"/>
+			<SyncUnit Name="[PCM D (EP1111)]" HcName="PCM D (EP1111)"/>
+			<SyncUnit Name="[Solenoid Pair A (EP1111)]" HcName="Solenoid Pair A (EP1111)"/>
+		</EtherCAT>
+	</Device>
+</TcSmItem>
