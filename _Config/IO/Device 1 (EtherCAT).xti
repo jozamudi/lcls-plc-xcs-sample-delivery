@@ -36,6 +36,9 @@
 		<Box File="Term 1 (EK1200).xti" Id="1">
 			<EtherCAT PortABoxInfo="#x00ffffff"/>
 		</Box>
+		<Box File="Box 17 (EP9128-0021).xti" Id="17">
+			<EtherCAT PortABoxInfo="#x01000002"/>
+		</Box>
 		<Box File="ALI (EP1111).xti" Id="10">
 			<EtherCAT PortABoxInfo="#xffffffff"/>
 		</Box>
