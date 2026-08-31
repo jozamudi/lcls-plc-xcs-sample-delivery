@@ -1,11 +1,11 @@
-#!/reg/g/pcds/epics/ioc/common/ads-ioc/R2.0.0/bin/rhel7-x86_64/adsIoc
+#!/reg/g/pcds/epics/ioc/common/ads-ioc/R2.1.2/bin/rhel9-x86_64/adsIoc
 ################### AUTO-GENERATED DO NOT EDIT ###################
 #
 #         Project: sample-delviery.tsproj
 #        PLC name: sample-delivery (sample-delivery Instance)
-# Generated using: pytmc 2.19.1
-# Project version: 675ed4a
-#    Project hash: 675ed4a33358b1e237db8d16104c9b2249f1fedc
+# Generated using: pytmc 2.22.1
+# Project version: unknown
+#    Project hash: unknown
 #     PLC IP/host: plc-xcs-sds (Specified in Makefile; project has: 172.21.38.25)
 #      PLC Net ID: 172.21.38.25.1.1
 #  ** Production mode IOC **
@@ -49,7 +49,7 @@ epicsEnvSet("ADS_TIMEOUT_MS",   "1000")
 epicsEnvSet("ADS_TIME_SOURCE",  "0")
 
 # Add a route to the PLC automatically:
-system("${ADS_IOC_TOP}/scripts/add_route.sh plc-xcs-sds ^172.*")
+system("${ADS_IOC_TOP}/scripts/add_route.sh plc-xcs-sds ^172.*$")
 
 # adsAsynPortDriverConfigure(portName, ipaddr, amsaddr, amsport,
 #    asynParamTableSize, priority, noAutoConnect, defaultSampleTimeMS,
@@ -115,7 +115,7 @@ dbLoadRecords("TwinCAT_TaskInfo.db", "PORT=$(ASYN_PORT),PREFIX=PLC:sample-delive
 dbLoadRecords("TwinCAT_TaskInfo.db", "PORT=$(ASYN_PORT),PREFIX=PLC:sample-delivery,IDX=2,TASK_PORT=350")
 dbLoadRecords("TwinCAT_AppInfo.db", "PORT=$(ASYN_PORT), PREFIX=PLC:sample-delivery")
 
-dbLoadRecords("TwinCAT_Project.db", "PREFIX=PLC:sample-delivery,PROJECT=sample-delviery.tsproj,HASH=675ed4a,VERSION=675ed4a,PYTMC=2.19.1,PLC_HOST=plc-xcs-sds")
+dbLoadRecords("TwinCAT_Project.db", "PREFIX=PLC:sample-delivery,PROJECT=sample-delviery.tsproj,HASH=unknown,VERSION=unknown,PYTMC=2.22.1,PLC_HOST=plc-xcs-sds")
 
 #   LCLS Sample Delivery: * -> 2.0.0 (SLAC - LCLS)
 dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:sample-delivery,DEPENDENCY=LCLS_Sample_Delivery,VERSION=2.0.0,VENDOR=SLAC - LCLS")
